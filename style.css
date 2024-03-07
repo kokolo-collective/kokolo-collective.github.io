@@ -1,0 +1,117 @@
+:root {
+    --background: #0b2027ff;
+    --boxes: #23424d;
+    --links: #70a9a1ff;
+    --text: #cfd7c7ff;
+}
+
+
+
+/* Elements */
+
+body {
+    padding: 20px;
+
+    color: var(--text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
+    background: var(--background);
+}
+
+h1, h2 {
+    font-family: "Patua One", serif;
+}
+h1 {
+    margin: 0px;
+
+    font-size: 80px;
+}
+h2 {
+    margin: 0px;
+
+    font-size: 45px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--links);
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+a:hover {
+    color: var(--text);
+
+    transition: 0.2s;
+}
+
+img {
+    width: 160px;
+
+    margin-right: 20px;
+
+    border-radius: 10px;
+}
+
+button {
+    color: var(--background);
+
+    border: none;
+    border-radius: 5px;
+
+    background: var(--links);
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+button:hover {
+    background: var(--text);
+
+    transition: 0.2s;
+}
+
+
+
+/* Classes */
+
+.bottom_margin {
+    margin-bottom: 30px;
+}
+
+.filled_box {
+    margin: 10px;
+    padding: 20px;
+
+    width: 600px;
+    min-height: 200px;
+
+    border-radius: 5px;
+
+    background: var(--boxes);
+}
+
+.row_anchor {
+    margin: 5px;
+}
+
+
+
+/* Flexbox */
+
+.flex_column, .flex_row { display: flex; }
+.flex_column { flex-direction: column; }
+.flex_row { flex-direction: row; flex-wrap: wrap; }
+
+.align_start, .start { align-items: start; }
+.align_center, .center { align-items: center; }
+.align_end, .end { align-items: end; }
+
+.justify_start, .start { justify-content: start; }
+.justify_center, .center { justify-content: center; }
+.justify_end, .end { justify-content: end; }
