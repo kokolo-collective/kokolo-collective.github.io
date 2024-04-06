@@ -1,8 +1,8 @@
 :root {
-    --background: #0b2027ff;
-    --boxes: #23424d;
-    --links: #70a9a1ff;
-    --text: #cfd7c7ff;
+    --background: #140a09;
+    --boxes: #751e11;
+    --links: #d76518;
+    --text: #d9b683;
 }
 
 
@@ -19,19 +19,19 @@ body {
     background: var(--background);
 }
 
-h1, h2 {
+h1, h2, h3 {
+    margin: 0px;
+
     font-family: "Patua One", serif;
 }
 h1 {
-    margin: 0px;
-
     font-size: 80px;
-}
-h2 {
-    margin: 0px;
 
-    font-size: 45px;
+    animation: fadeInDown;
+    animation-duration: 0.5s;
 }
+h2 { font-size: 45px; }
+h3 { font-size: 25px; font-weight: 100; }
 
 p {
     margin: 0;
@@ -46,16 +46,14 @@ a {
 }
 a:hover {
     color: var(--text);
+    text-decoration: none;
 
     transition: 0.2s;
 }
 
-img {
-    width: 160px;
-
-    margin-right: 20px;
-
-    border-radius: 10px;
+.flex_row .start a:hover {
+    animation: tada;
+    animation-duration: 1s;
 }
 
 button {
@@ -81,23 +79,79 @@ button:hover {
 /* Classes */
 
 .bottom_margin {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
-.filled_box {
-    margin: 10px;
+.box, .wide_box {
+    margin: 30px;
     padding: 20px;
 
-    width: 600px;
+    width: 700px;
     min-height: 200px;
 
     border-radius: 5px;
 
     background: var(--boxes);
 }
+.wide_box {
+    width: 1400px;
+}
+
+.box:hover .headshot {
+    margin-top: -80px;
+
+    animation: headshot 2s infinite;
+
+    transition: 0.3s;
+}
+
+.menu_bar {
+    margin: 20px;
+}
 
 .row_anchor {
     margin: 5px;
+}
+
+.headshot {
+    position: absolute;
+
+    width: 200px;
+
+    margin-top: -60px;
+    margin-left: -30px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+@keyframes headshot {
+    from {
+        rotate: 3deg;
+    }
+    50% {
+        rotate: -3deg;
+    }
+    100% {
+        rotate: 3deg;
+    }
+}
+
+.member_project {
+    height: 30px;
+
+    overflow: hidden;
+}
+
+.project {
+    width: 100%;
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 50px;
 }
 
 

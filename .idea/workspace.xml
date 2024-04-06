@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6e9386-e075-4e51-b804-282770b69047" name="Changes" comment="" />
+    <list default="true" id="bc6e9386-e075-4e51-b804-282770b69047" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/emerging_project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/members.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Owen_Hellum_Headshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -22,7 +38,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2dNMZ5N3V4A2FJegd7Pewk1G2tG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,15 +55,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ohellum/Documents/GitHub/kokolo-collective.github.io/images",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Owen Hellum/Documents/GitHub/kokolo-collective.github.io",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io" />
       <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io\scripts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,6 +85,7 @@
       <updated>1709844136670</updated>
       <workItem from="1709844140619" duration="25000" />
       <workItem from="1709844176515" duration="3912000" />
+      <workItem from="1712433201034" duration="8228000" />
     </task>
     <servers />
   </component>
