@@ -2,34 +2,53 @@ let members = [
     {
         'name': 'Owen Hellum',
         'headshot': 'Owen_Hellum_Headshot.png',
-        'website': 'https://omch.tech',
-        'itch': 'https://omch.itch.io',
-        'linkedin': 'https://linkedin.com/in/owen-hellum',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor turpis, blandit sed commodo vel, viverra ac sapien. Praesent pulvinar, urna in sodales consequat, dolor sem finibus magna, nec gravida velit odio sit amet eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ultricies.',
-        'skills': 'Unity, C#, Blender, dialogue systems, C++',
-        'images': [
+        'links': [
             {
-                'image': 'mfa.png',
-                'url': 'https://myfriendaki.com'
+                'name': 'Website',
+                'url': 'https://omch.tech',
+            },
+            {
+                'name': 'Itch',
+                'url': 'https://omch.itch.io',
+            },
+            {
+                'name': 'LinkedIn',
+                'url': 'https://linkedin.com/in/owen-hellum',
             }
+        ],
+        'description': 'Owen (he/they) is an indie game designer, programmer, and 3D artist based in Montréal, Québec.<br><br>Throwing himself wholly into both the technical and artistic sides of game and interactive design, he has worked on various independent and collaborative game projects. His interests lie on the intersection between whimsicality, unorthodoxy, and technicality in games and other interactive media. He adores exploring rich narratives, manipulating player agency, and designing things that come together just right.',
+        'skills': 'Unity & C#, Blender, C++, dialogue systems, tools programming, GitHub, Substance Painter',
+        'images': [
+            // {
+            //     'image': '',
+            //     'url': ''
+            // }
         ]
     },
     {
-        'name': 'Member Name',
-        'headshot': '',
-        'website': '',
-        'itch': '',
-        'linkedin': '',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor turpis, blandit sed commodo vel, viverra ac sapien. Praesent pulvinar, urna in sodales consequat, dolor sem finibus magna, nec gravida velit odio sit amet eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ultricies.',
-        'skills': ''
-    },
-    {
-        'name': 'Member Name',
-        'headshot': '',
-        'website': '',
-        'itch': '',
-        'linkedin': '',
-        'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor turpis, blandit sed commodo vel, viverra ac sapien. Praesent pulvinar, urna in sodales consequat, dolor sem finibus magna, nec gravida velit odio sit amet eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ultricies.',
-        'skills': ''
+        'name': 'Leonardo Morales Vega',
+        'headshot': 'Leo_Morales_Vega_Headshot.jpg',
+        'links': [
+            {
+                'name': 'Website',
+                'url': 'https://lmorv.github.io/undercurrent',
+            },
+            {
+                'name': 'Tech Art',
+                'url': 'https://lmorv.github.io/undercurrent/tech-art.html',
+            },
+            {
+                'name': 'Itch',
+                'url': 'https://lm-vega.itch.io',
+            }
+        ],
+        'description': 'Leonardo Morales Vega (any) is a Mexican-Canadian computation artist, working towards a unified multidisciplinary practice of digital speculative fabulation and sensory research creation. Their focus is on multi-cultural representation and sci-art materialization, in the realms of Game and Experience Design.<br><br>Leo’s trajectory encompasses independent explorations into traditional and digital art production techniques: from 2D hand-drawn visual development to digital 3D creation methods. Leo has a formal education in 3D Animation and Computer-Generated Imagery from Dawson College in Montreal, and in Computation Arts from Concordia University, where they\'ve worked as a research assistant in TAG (Technoculture Art & Games, games studies lab). Leo also has experience working as a Quality Analyst & Designer in video games at EA Motive, performing qualitative and functional analysis of gameplay and UI features.<br><br>Leo’s current practice focuses on Interaction and Game Design as worldbuilding & storytelling tools in their ongoing creative efforts at modern interpretations of Mesoamerican mythology, and fabulative design in approaches to narrative. Through their work with game engines and visual computation techniques Leo seeks to surface the inner-workings of the creative process and communicate an embodied intuition of natural-scientific & cultural phenomena through playful interactions.',
+        'skills': 'Blender, Unreal Engine, digital drawing, Unity, shaders',
+        'images': [
+            // {
+            //     'image': '',
+            //     'url': ''
+            // }
+        ]
     }
 ];

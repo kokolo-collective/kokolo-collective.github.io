@@ -3,9 +3,13 @@ function load_boxes(id, data, wide) {
 
     let parent = document.getElementById(id);
 
+    let left_column = parent.appendChild(createElement('div', 'flex_column start'));
+    let right_column = parent.appendChild(createElement('div', 'flex_column start'));
+    let right = false;
+
     for (let i in data) {
-        let box = createElement('div', wide ? 'flex_column center wide_box' : 'flex_row center box', '');
-        parent.appendChild(box);
+        let column_parent = right ? right_column : left_column;
+        let box = column_parent.appendChild(createElement('div', wide ? 'flex_column center wide_box' : 'flex_row center box', ''));
 
         let left = box.appendChild(createElement('div', wide ? 'flex_column start bottom_margin' : 'flex_column start'));
 
@@ -19,22 +23,23 @@ function load_boxes(id, data, wide) {
         let anchors = createElement('div', 'flex_row start', '');
         name_section.appendChild(anchors);
 
-        if (data[i].website !== '') anchors.appendChild(createAnchor(data[i].website, 'row_anchor', 'Website'));
-        if (data[i].itch !== '') anchors.appendChild(createAnchor(data[i].itch, 'row_anchor', 'Itch'));
-        if (data[i].linkedin !== '') anchors.appendChild(createAnchor(data[i].linkedin, 'row_anchor', 'LinkedIn'));
+        for (let j in data[i].links)
+            anchors.appendChild(createAnchor(data[i].links[j].url, 'row_anchor', data[i].links[j].name));
 
         if (data[i].description !== '') left.appendChild(createElement('p', '', '<br>' + data[i].description));
-        if (data[i].skills !== '') left.appendChild(createElement('p', '', '<br>Skills: ' + data[i].skills));
+        if (data[i].skills !== '') left.appendChild(createElement('p', '', '<br>Skills: <strong>' + data[i].skills + '</strong>'));
 
         // TODO
         if (wide && data[i].images !== '' && data[i].images.length > 0) {
             let right = box.appendChild(createElement('div', wide ? 'flex_row center' : 'flex_column start'));
 
-            for (let j in data[i].images) {
-                let project_anchor = right.appendChild(createAnchor(data[i].images[j].url));
-                project_anchor.appendChild(createImage('projects/' + data[i].images[j].image, wide ? 'project' : 'member_project'));
+            for (let k in data[i].images) {
+                let project_anchor = right.appendChild(createAnchor(data[i].images[k].url));
+                project_anchor.appendChild(createImage('projects/' + data[i].images[k].image, wide ? 'project' : 'member_project'));
             }
         }
+
+        right = !right;
     }
 
     norefAnchors();

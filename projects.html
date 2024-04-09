@@ -35,12 +35,23 @@
     <div class="flex_column center">
         <div class="flex_column center bottom_margin" id="header"></div>
 
-        <div class="flex_row center" style="width: 100%" id="projects"></div>
+        <div class="flex_row align_start justify_center" style="width: 100%" id="projects"></div>
     </div>
 
     <div class="flex_column center">
-        <p style="margin: 5px">Kokolo Game-Art Collective © 2024</p>
-        <i>Some animations made possible using <a href="https://animate.style/">Animate.css</a>.</i>
+        <p>Kokolo Game-Art Collective © 2024</p>
+        <p><i>Designed and developed by <a href="https://omch.tech">Owen Hellum</a>.</i></p>
+        <p><i>Some animations made possible using <a href="https://animate.style/">Animate.css</a>.</i></p>
     </div>
 </body>
+
+<script type="text/javascript">
+    if (screen.width <= 450) {
+        let mobile_style = document.createElement('link');
+        mobile_style.setAttribute('rel', 'stylesheet');
+        mobile_style.setAttribute('href', 'mobile.css');
+
+        document.head.appendChild(mobile_style);
+    }
+</script>
 </html>
