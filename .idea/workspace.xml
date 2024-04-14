@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc6e9386-e075-4e51-b804-282770b69047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headshots/Leo_Morales_Vega_Headshot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headshots/Hanine_El_Mir_Headshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/mobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emerging_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/emerging_project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/boxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/boxes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/members.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/members.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/values.html" beforeDir="false" afterPath="$PROJECT_DIR$/values.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Owen Hellum/Documents/GitHub/kokolo-collective.github.io",
+    "last_opened_file_path": "C:/Users/Owen Hellum/Documents/GitHub/kokolo-collective.github.io/headshots",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,8 +61,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io" />
       <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io\headshots" />
+      <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,6 +81,7 @@
       <workItem from="1709844176515" duration="3912000" />
       <workItem from="1712433201034" duration="8228000" />
       <workItem from="1712698643289" duration="4170000" />
+      <workItem from="1713112156989" duration="305000" />
     </task>
     <servers />
   </component>
