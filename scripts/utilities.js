@@ -43,3 +43,18 @@ function norefAnchors() {
         }
     }
 }
+
+function shuffle_array(array) {
+    let index = array.length;
+
+    while (index > 0) {
+        let randomIndex = Math.floor(Math.random() * index);
+        index--;
+
+        let temp = array[index];
+        array[index] = array[randomIndex];
+        array[randomIndex] = temp;
+    }
+
+    return array;
+}

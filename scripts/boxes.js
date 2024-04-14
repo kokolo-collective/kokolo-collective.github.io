@@ -7,6 +7,8 @@ function load_boxes(id, data, wide) {
     let right_column = parent.appendChild(createElement('div', 'flex_column start'));
     let right = false;
 
+    data = shuffle_array(data);
+
     for (let i in data) {
         let column_parent = right ? right_column : left_column;
         let box = column_parent.appendChild(createElement('div', wide ? 'flex_column center wide_box' : 'flex_row center box', ''));
@@ -19,6 +21,8 @@ function load_boxes(id, data, wide) {
         left.appendChild(name_section);
 
         name_section.appendChild(createElement('h2', '', data[i].name));
+
+        if (data[i].pronouns !== '') name_section.appendChild(createElement('p', '', '(' + data[i].pronouns + ')'));
 
         let anchors = createElement('div', 'flex_row start', '');
         name_section.appendChild(anchors);
