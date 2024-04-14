@@ -72,7 +72,24 @@ let members = [
                 'url': 'https://www.linkedin.com/in/noemiecarrier',
             }
         ],
-        'description': 'Noémie is a second-year computational art student and an undergraduate fellow at the Textile and Materiality cluster. She pursued the Fabricademy program following her fashion studies at CÉGEP, driven by her curiosity about circular, slow, and sustainable fashion. Her time at the fablab Echofab, at the intersection of technology and education, shaped her artistic practice.<br><br>She approaches her work as an interdisciplinary designer. Furthermore, she loves to focus on body, nature, and interactive experiences, often exploring wearable technology through her art. Her creative style thrives on exploration, especially within the garment-making process, where she uses technology in innovative ways. Her most recent research delves into how garments and virtual avatars shape one’s identity, particularly at the fascinating crossroads of gender expression and internet culture. She believes that technology has a profound impact on how we perceive and construct our identities, and creates thought-provoking pieces utilizing a diverse range of digital tools and techniques. ',
+        'description': 'Noémie is a second-year computational art student and an undergraduate fellow at the Textile and Materiality cluster. She pursued the Fabricademy program following her fashion studies at CÉGEP, driven by her curiosity about circular, slow, and sustainable fashion. Her time at the fablab Echofab, at the intersection of technology and education, shaped her artistic practice.<br><br>She approaches her work as an interdisciplinary designer. Furthermore, she loves to focus on body, nature, and interactive experiences, often exploring wearable technology through her art. Her creative style thrives on exploration, especially within the garment-making process, where she uses technology in innovative ways. Her most recent research delves into how garments and virtual avatars shape one’s identity, particularly at the fascinating crossroads of gender expression and internet culture. She believes that technology has a profound impact on how we perceive and construct our identities, and creates thought-provoking pieces utilizing a diverse range of digital tools and techniques.',
         'skills': ''
+    },
+    {
+        'name': 'Dimana Radoeva',
+        'pronouns': 'she/her',
+        'headshot': 'Dimana_Radoeva_Headshot.png',
+        'links': [
+            {
+                'name': 'Itch (game stuff)',
+                'url': 'https://radsunny.itch.io',
+            },
+            {
+                'name': 'Tumblr (writing)',
+                'url': 'https://raddimana.tumblr.com',
+            }
+        ],
+        'description': 'Dimana Radoeva is an MA student in the INDI program working on a research-creation project combining the fields of medieval literature/history, computational arts, and interactive narrative game design. Her academic and creative work is focused on exploring ways in which the Old English epic can be deconstructed through an interdisciplinary, comedic, and experimental point of view.<br><br>A recipient of the France & Andre Desmarais Graduate Fellowship, her game design projects I HAVE SEEN THE TRUTH AND IT IS SILLY (2022) and YOU WILL NOIT WIN AND YOU MUST DIE, YOU CHURL (2023) combine her love for hypertext fiction, medieval poetry and unconventional writing in order to solidify an excitement for the coalescence of literary historical expression and its inevitable relevance in a modern, digitized cultural expression.<br><br>Her writing has been published in The Concordian, The Void, Soliloquies Anthology, and she has presented her academic research-creation work at the 2023 English Colloquium as well as NaMLA’s 2024 regional conference in Boston, Massachusetts.',
+        'skills': 'Strong creative and academic voice, Hybrid writer + graphic designer, Proficient in HTML and CSS, Interactive Fiction design (Twine\'s Harlowe)'
     }
 ];

@@ -29,7 +29,7 @@
     <meta property="twitter:image" content="..." />
 </head>
 
-<body onload="load_header()">
+<body onload="load_header_and_footer()">
     <div class="flex_column center">
         <div class="flex_column center bottom_margin" id="header"></div>
 
@@ -39,21 +39,9 @@
 <!--            <p class="bottom_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec risus justo. Nulla ornare, eros sit amet rutrum ullamcorper, mauris ex mattis ex, quis consectetur ipsum eros a elit. Mauris iaculis, nunc ac imperdiet feugiat, magna urna volutpat lacus, id imperdiet sapien eros et lorem. Aliquam erat volutpat. Nullam quis lobortis mi. Nulla imperdiet, metus ut iaculis consequat, nibh magna tempus dui, a consectetur dui odio ut metus. Integer dictum nec orci non efficitur. Phasellus pulvinar dolor nec nisl ornare, sit amet egestas mi vehicula.</p>-->
         </div>
 
-        <div class="flex_column center">
-            <p>Kokolo Game-Art Collective © 2024</p>
-            <p><i>Designed and developed by <a href="https://omch.tech">Owen Hellum</a>.</i></p>
-            <p><i>Some animations made possible using <a href="https://animate.style/">Animate.css</a>.</i></p>
-        </div>
+        <div class="flex_column center" id="footer"></div>
     </div>
 </body>
 
-<script type="text/javascript">
-    if (screen.width <= 450) {
-        let mobile_style = document.createElement('link');
-        mobile_style.setAttribute('rel', 'stylesheet');
-        mobile_style.setAttribute('href', 'mobile.css');
-
-        document.head.appendChild(mobile_style);
-    }
-</script>
+<script src="scripts/mobile.js"></script>
 </html>

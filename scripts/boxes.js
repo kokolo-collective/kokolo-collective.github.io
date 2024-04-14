@@ -1,5 +1,5 @@
 function load_boxes(id, data, wide) {
-    load_header();
+    load_header_and_footer();
 
     let parent = document.getElementById(id);
 

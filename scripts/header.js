@@ -1,3 +1,8 @@
+function load_header_and_footer() {
+    load_header();
+    load_footer();
+}
+
 function load_header() {
     let header = document.getElementById('header');
 
@@ -25,4 +30,12 @@ function load_header() {
     let emerging_project = menu_bar.appendChild(createElement('h2', 'menu_bar'));
     emerging_project.appendChild(createAnchor('emerging_project.html', 'ref', '<i>Emerging Project</i> application'));
     random_skew(emerging_project, 3, 3, 1.5);
+}
+
+function load_footer() {
+    let footer = document.getElementById('footer');
+
+    footer.appendChild(createElement('p', '', 'Kokolo Game-Art Collective © 2024'));
+    footer.appendChild(createElement('p', '', '<i>Designed and developed by <a href="https://omch.tech">Owen Hellum</a>.</i>'));
+    footer.appendChild(createElement('p', '', '<i>Some animations made possible using <a href="https://animate.style/">Animate.css</a>.</i>'));
 }
