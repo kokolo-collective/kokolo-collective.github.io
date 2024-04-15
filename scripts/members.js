@@ -73,7 +73,7 @@ let members = [
             }
         ],
         'description': 'Noémie is a second-year computational art student and an undergraduate fellow at the Textile and Materiality cluster. She pursued the Fabricademy program following her fashion studies at CÉGEP, driven by her curiosity about circular, slow, and sustainable fashion. Her time at the fablab Echofab, at the intersection of technology and education, shaped her artistic practice.<br><br>She approaches her work as an interdisciplinary designer. Furthermore, she loves to focus on body, nature, and interactive experiences, often exploring wearable technology through her art. Her creative style thrives on exploration, especially within the garment-making process, where she uses technology in innovative ways. Her most recent research delves into how garments and virtual avatars shape one’s identity, particularly at the fascinating crossroads of gender expression and internet culture. She believes that technology has a profound impact on how we perceive and construct our identities, and creates thought-provoking pieces utilizing a diverse range of digital tools and techniques.',
-        'skills': ''
+        'skills': 'Blender, Vector based illustration, Electronics, Microcontrollers, Sewing, Additive manufacturing and Laser cutting'
     },
     {
         'name': 'Dimana Radoeva',
