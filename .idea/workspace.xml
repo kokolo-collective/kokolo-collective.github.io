@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc6e9386-e075-4e51-b804-282770b69047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/headshots/Dimana_Radoeva_Headshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emerging_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/emerging_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/values.html" beforeDir="false" afterPath="$PROJECT_DIR$/values.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +82,7 @@
       <workItem from="1713113431598" duration="939000" />
       <workItem from="1713114562777" duration="48000" />
       <workItem from="1713118110325" duration="755000" />
+      <workItem from="1713890887864" duration="234000" />
     </task>
     <servers />
   </component>
