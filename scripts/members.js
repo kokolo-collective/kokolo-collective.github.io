@@ -91,5 +91,26 @@ let members = [
         ],
         'description': 'Dimana Radoeva is an MA student in the INDI program working on a research-creation project combining the fields of medieval literature/history, computational arts, and interactive narrative game design. Her academic and creative work is focused on exploring ways in which the Old English epic can be deconstructed through an interdisciplinary, comedic, and experimental point of view.<br><br>A recipient of the France & Andre Desmarais Graduate Fellowship, her game design projects I HAVE SEEN THE TRUTH AND IT IS SILLY (2022) and YOU WILL NOIT WIN AND YOU MUST DIE, YOU CHURL (2023) combine her love for hypertext fiction, medieval poetry and unconventional writing in order to solidify an excitement for the coalescence of literary historical expression and its inevitable relevance in a modern, digitized cultural expression.<br><br>Her writing has been published in The Concordian, The Void, Soliloquies Anthology, and she has presented her academic research-creation work at the 2023 English Colloquium as well as NaMLA’s 2024 regional conference in Boston, Massachusetts.',
         'skills': 'Strong creative and academic voice, Hybrid writer + graphic designer, Proficient in HTML and CSS, Interactive Fiction design (Twine\'s Harlowe)'
+    },
+    {
+        'name': 'Zi Di Zhu',
+        'pronouns': 'they/them',
+        'headshot': 'Zi_Di_Zhu_Headshot.jpg',
+        'links': [
+            {
+                'name': 'Website',
+                'url': 'https://zidizhu.github.io/portfolio/index.html',
+            },
+            {
+                'name': 'Itch.io',
+                'url': 'https://2101.itch.io',
+            },
+            {
+                'name': 'ArtStation',
+                'url': 'https://www.artstation.com/zi-di',
+            }
+        ],
+        'description': 'Zi Di is an independent game developer and intermedia artist from Montreal. They started developing games around 2020, learning from making games of various genres and inventing novel mechanics. This journey to experimentation yielded many works under the title of <a href="https://zidizhu.github.io/portfolio/games.html">A collection of small games</a>, which includes Game Jam hits and honorable mentions. This project also won the Concordia University’s Design Experiential Award in 2021.<br><br>Zi Di received musical training from a young age, holds a Bachelor\'s in Computer Science with a joint major in Computation Arts, and had work experience both as a programmer and artist. This gives Zi Di an edge as an independent game developer who’s able to bridge the artistic, technical and scientific discipline, connecting the aesthetics with the functionality.<br><br>As a game designer, Zi Di is interested in diegetic design, game theory and genre subversion. Zi Di aspires to use the interactive medium of games to convey complex ideas and frameworks as well as communicate experiences and empathy.',
+        'skills': 'Programming, Unity, 3D and Technical Art, Music Composing'
     }
 ];
