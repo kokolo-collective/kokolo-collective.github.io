@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Owen Hellum/Documents/GitHub/kokolo-collective.github.io/headshots",
+    "last_opened_file_path": "/Users/ohellum/Documents/GitHub/kokolo-collective.github.io/media",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io\headshots" />
       <recent name="C:\Users\Owen Hellum\Documents\GitHub\kokolo-collective.github.io" />
       <recent name="$PROJECT_DIR$/images" />
@@ -81,6 +82,7 @@
       <workItem from="1713118110325" duration="755000" />
       <workItem from="1713890887864" duration="234000" />
       <workItem from="1714656486549" duration="500000" />
+      <workItem from="1722553269970" duration="908000" />
     </task>
     <servers />
   </component>

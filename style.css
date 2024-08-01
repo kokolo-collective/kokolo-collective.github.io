@@ -161,6 +161,12 @@ button:hover {
 
 
 
+/* IDs*/
+
+#footer { margin-top: 50px; }
+
+
+
 /* Flexbox */
 
 .flex_column, .flex_row { display: flex; }

@@ -27,9 +27,9 @@ function load_header() {
     projects.appendChild(createAnchor('projects.html', 'ref', 'Projects'));
     random_skew(projects, 6, 6, 3);
 
-    let emerging_project = menu_bar.appendChild(createElement('h2', 'menu_bar'));
-    emerging_project.appendChild(createAnchor('emerging_project.html', 'ref', '<i>Emerging Project</i> application'));
-    random_skew(emerging_project, 3, 3, 1.5);
+    let events = menu_bar.appendChild(createElement('h2', 'menu_bar'));
+    events.appendChild(createAnchor('events.html', 'ref', 'Events'));
+    random_skew(events, 6, 6, 3);
 }
 
 function load_footer() {
